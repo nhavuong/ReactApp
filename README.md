@@ -4,8 +4,8 @@ Using API: https://www.theaudiodb.com/api_guide.php, build a simple site/app whe
 
 
 Run locally:
-npm install
-npm start 
+- npm install
+- npm start 
 
 
 
