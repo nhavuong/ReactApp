@@ -31,3 +31,66 @@ small {
     font-size: 4.4rem;
     text-align: center;
 }
+
+.form {
+    display: grid;
+}
+
+.label {
+    font-size: 2.2rem;
+    margin-bottom: 0.2rem;
+    
+}
+
+.input {
+    font-size: 2.6rem;
+    padding: 0.5rem 2rem;
+    line-height: 2.8re;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.button {
+    background-color: chocolate;
+    color: white;
+    padding: 1rem 2rem;
+    border: 1px solid rgb(141, 177, 165);
+    border-radius: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 250ms;
+}
+
+.button:hover {
+    background-color: rgba(255, 123, 0, 0.883);
+}
+
+@media (min-width:786px) {
+    .form {
+        grid-template-columns: auto 1fr auto;
+        grid-gap: 1rem;
+        align-items: center;
+    }
+
+    .input {
+        margin-bottom: 0;
+    }
+}
+
+.card-list {
+    margin-top: 4rem;
+
+}
+
+.card {
+    padding: 2rem 4rem;
+    border: 10px;
+    box-shadow: 1px 1px 5px rosybrown;
+    background-color: rgb(232, 221, 221);
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 3.2rem;
+}
